@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--     inserted     -->
+    <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap.css">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+    
+    <link href="assets/style.css" rel="stylesheet"/>
+    <!--     inserted     -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary text-dark">
+        <ul class="navbar-nav mr-auto">
+            <nav-item>
+                <img src="./images/logo3.jpg" alt="" width="50" height="50" class="d-inline-block align-top logo">
+            </nav-item>
+            <li class="nav-item">
+                <a class="navbar-brand" href="#">STUDYSPHERE</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav justify-content-center mr-auto ml-auto">
+            <li class="nav-item ">
+                <form class="form-inline my-2 my-lg-0 search-form" action="/search" method="get">
+                    <div class="input-group">
+                        <input type="search" id="search-input" name="q" placeholder="">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    
+                  </form>
+            </li>
+        </ul>
+        <ul class="navbar-nav nav justify-content-end">
+            <li class="nav-item ">
+                <a class="nav-link" href="#">Notifications <i class="fa fa-bell" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">My Account<i class="fa fa-user" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="card text-center" style="width: 100%; padding: 10px; margin-left: auto; margin-right: auto;">
+        <div class="card-body">
+          <h5 class="card-title">Welcome to StudySphere</h5>
+          <p class="card-text">Click the button below to upload a file</p>
+          <a href="upload.html" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+</body>
+</html>
